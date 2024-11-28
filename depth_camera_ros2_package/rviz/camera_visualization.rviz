@@ -1,0 +1,12 @@
+Panels:
+  - Class: rviz_common/DisplaysPanel
+Displays:
+  - Name: Depth Image
+    Topic: /d435/depth/image_raw
+    Type: rviz_default_plugins/Image
+  - Name: Point Cloud
+    Topic: /d435/depth/color/points
+    Type: rviz_default_plugins/PointCloud2
+  - Name: RGB Image
+    Topic: /d435/color/image_raw
+    Type: rviz_default_plugins/Image
